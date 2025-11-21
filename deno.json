@@ -42,7 +42,6 @@
   ],
   "imports": {
     "three": "npm:three@^0.181.2",
-    "vite": "npm:vite@7",
-    "ammo.js": "npm:ammo.js"
+    "vite": "npm:vite@7"
   }
 }

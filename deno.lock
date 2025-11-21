@@ -1,7 +1,6 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:ammo.js@*": "0.0.10",
     "npm:three@~0.181.2": "0.181.2",
     "npm:vite@7": "7.2.4_picomatch@4.0.3"
   },
@@ -249,9 +248,6 @@
     "@types/estree@1.0.8": {
       "integrity": "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w=="
     },
-    "ammo.js@0.0.10": {
-      "integrity": "sha512-jOv977u71jrDUzHfmQ99YaW90/y8YLn/3HFTmtLLzf5wJynAfG+/a1Ie5gbn0fE0uSAHxXVsFk4Bzq8qRPWqAA=="
-    },
     "esbuild@0.25.12": {
       "integrity": "sha512-bbPBYYrtZbkt6Os6FiTLCTFxvq4tt3JKall1vRwshA3fdVztsLAatFaZobhkBC8/BrPetoa0oksYoKXoG4ryJg==",
       "optionalDependencies": [
@@ -380,7 +376,6 @@
   },
   "workspace": {
     "dependencies": [
-      "npm:ammo.js@*",
       "npm:three@~0.181.2",
       "npm:vite@7"
     ]
