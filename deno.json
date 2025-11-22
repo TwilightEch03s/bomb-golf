@@ -26,9 +26,9 @@
     "proseWrap": "preserve"
   },
   "tasks": {
-    "dev": "deno run -A npm:vite@7",
-    "build": "deno run -A npm:vite@7 build",
-    "preview": "deno run -A npm:vite@7 preview",
+    "dev": "deno run --node-modules-dir -A npm:vite@7",
+    "build": "deno run --node-modules-dir -A npm:vite@7 build",
+    "preview": "deno run --node-modules-dir -A npm:vite@7 preview",
     "check": "deno check src/**/*.ts",
     "lint": "deno lint",
     "fmt": "deno fmt",
