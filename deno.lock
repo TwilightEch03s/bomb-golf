@@ -2,11 +2,7 @@
   "version": "5",
   "specifiers": {
     "npm:three@~0.181.2": "0.181.2",
-<<<<<<< HEAD
     "npm:vite@^7.2.4": "7.2.4_picomatch@4.0.3"
-=======
-    "npm:vite@7": "7.2.4_picomatch@4.0.3"
->>>>>>> parent of fff02fe (update index.html to load compiled JS)
   },
   "npm": {
     "@esbuild/aix-ppc64@0.25.12": {
